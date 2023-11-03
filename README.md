@@ -1,4 +1,4 @@
-![1481698978163_ pic](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/fb975ea4-9928-4085-8639-e3b14cd272c6)
+![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/03c09d93-641b-45dc-baec-15ac62ef10d0)
 
 <div align="center" id="top">
 <h3 align="center">Repository for Jasmine</h3>
