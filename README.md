@@ -63,7 +63,7 @@ All of this makes Jasmine a multi-canister dapp.
 
 ## ICP, Anvil Protocol, CanDB and APIs
 
-:: ICP blockchain
+####:: ICP blockchain
 The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. 
 
 :: authentication
