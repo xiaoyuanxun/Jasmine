@@ -24,8 +24,8 @@ Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy commu
 
 ### ICP Tools
 
-* [CanDB](https://github.com/canscale/CanDB)
-* [Anvil Protocol](https://docs.nftanvil.com/docs/sdk/js)
+* [CanDB](https://github.com/canscale/CanDB)    -- a flexible, performant, and horizontally scalable non-relational multi-canister data storage framework built for the Internet Computer.
+* [Anvil Protocol](https://docs.nftanvil.com/docs/sdk/js)  -- A communication protocol wish to be autonomous, zero maintenance, self-sustainable web3 microservices made to last million+ years.
 * [User Geek](https://usergeek.app/)
 * [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/)
 
@@ -33,7 +33,7 @@ Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy commu
 
 * [React Redux](https://react-redux.js.org/)   -- official React UI bindings layer for Redux.
 * [Chakra UI](https://chakra-ui.com/)          -- a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
-* [vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko
+* [vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
 
 
 ## Design Approach
