@@ -6,6 +6,10 @@
   <p align="left">
     A decentralised NFT application hosted on the Internet Computer Blockchain (ICP)
   </p>
+  <p align="left">
+    -- TongJi University Metaverse Web3 Lab
+    -- Metaverse Web3 Lab@CASER, HKUST 
+  </p>
 </div>
 
 
