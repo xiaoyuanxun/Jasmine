@@ -1,13 +1,15 @@
 <div align="center" id="top">
-<h3 align="center">Repository for Kontribute</h3>
+<h3 align="center">Repository for Jasmine</h3>
   <p align="center">
-    A decentralised application hosted on the Internet Computer Blockchain (ICP)
+    A decentralised NFT application hosted on the Internet Computer Blockchain (ICP)
   </p>
 </div>
 
-## About The Project
+## About Jasmine
 
-you can visit the dapp here: [Kontribute.app](https://kontribute.app). Kontribute allows readers, writers and web 3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
+Dapp Demo address: [Kontribute.app](https://kontribute.app).
+
+Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
 
 
 ### The Tech Stack
@@ -32,7 +34,9 @@ you can visit the dapp here: [Kontribute.app](https://kontribute.app). Kontribut
 
 ## Design Approach
 
-Kontribute is built on top of the ICP blockchain - meaning the frontend and backend are both hosted on the blockchain. We use a variety of tools, web2 and web3 alike. The codebase has been opensourced to hopefully be used for educational purposes for any other developers building dapps on the ICP blockchain. This project was kickstarted with the `dfx new` command. 
+Jasmine is built on top of the ICP blockchain - meaning the frontend and backend are both hosted on the blockchain. We use a variety of tools, web2 and web3 alike. The codebase has been opensourced to hopefully be used for educational purposes for any other developers building dapps on the ICP blockchain. 
+
+This project was kickstarted with the `dfx new` command. 
 
 ### Frontend
 
@@ -44,10 +48,16 @@ Our backend is a mix between in house smart contracts written in Motoko aswell a
 
 ## ICP, Anvil Protocol, CanDB and APIs
 
-The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. Our dapps authentication uses [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/) which is currently an ICP specific authentication system, it is secure and powered by cryptography and allows users to create anonymous user IDs and wallets. We have integrated the Anvil Protocol which allows us to achieve NFT integration aswell as providing us with a variety of tools, including `vessel` and `npm` packages. Our marketplace, inventory and ICP wallet are all powered by the Anvil Protocol. We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Kontribute a highly scalable dapp that sticks purely to blockchain infrastructure. We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs, All information is anonymous.
+The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. Our dapps authentication uses [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/) which is currently an ICP specific authentication system, it is secure and powered by cryptography and allows users to create anonymous user IDs and wallets. 
+
+We have integrated the Anvil Protocol which allows us to achieve NFT integration aswell as providing us with a variety of tools, including `vessel` and `npm` packages. Our marketplace, inventory and ICP wallet are all powered by the Anvil Protocol. 
+
+We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Jasmine a highly scalable dapp that sticks purely to blockchain infrastructure. 
+
+We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs, All information is anonymous.
 
 ## License
-Kontribute is distributed under the terms of the Apache License (Version 2.0).
+Jasmine is distributed under the terms of the Apache License (Version 2.0).
 
 See LICENSE for details.
 
