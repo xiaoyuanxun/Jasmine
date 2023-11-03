@@ -3,7 +3,7 @@
 ![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/03c09d93-641b-45dc-baec-15ac62ef10d0)
 
 <div align="center" id="top">
-  <p align="center">
+  <p align="left">
     A decentralised NFT application hosted on the Internet Computer Blockchain (ICP)
   </p>
 </div>
