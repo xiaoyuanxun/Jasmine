@@ -26,8 +26,8 @@ Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy commu
 ### The Tech Stack
 
 * [React.js](https://reactjs.org/)
-* [Motoko](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)
-* [DFX](https://internetcomputer.org/docs/current/references/cli-reference/dfx-parent/)
+* [Motoko](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)  -- The Motoko programming language is a new, modern and type safe language for developers who want to build the next generation of distributed applications to run on the Internet Computer blockchain network. 
+* [DFX](https://internetcomputer.org/docs/current/references/cli-reference/dfx-parent/) -- The DFINITY command-line execution environment (dfx) is the primary tool for creating, deploying, and managing the dapps you develop for the IC.
 
 ### ICP Tools
 
