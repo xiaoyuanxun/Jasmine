@@ -1,4 +1,4 @@
-<h3 align="center">Repository for Jasmine</h3>
+<h3 align="left">Repository for Jasmine</h3>
 
 ![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/03c09d93-641b-45dc-baec-15ac62ef10d0)
 
@@ -26,7 +26,8 @@ Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy commu
 
 * [CanDB](https://github.com/canscale/CanDB)    -- a flexible, performant, and horizontally scalable non-relational multi-canister data storage framework built for the Internet Computer.
 * [Anvil Protocol](https://docs.nftanvil.com/docs/sdk/js)  -- A communication protocol wish to be autonomous, zero maintenance, self-sustainable web3 microservices made to last million+ years.
-* [User Geek](https://usergeek.app/)
+* [User Geek](https://usergeek.app/)   -- the first decentralised product analytics tool
+built on the DFINITY Internet Computer.
 * [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/)
 
 ### Other Tools
