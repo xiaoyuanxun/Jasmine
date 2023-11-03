@@ -80,6 +80,9 @@ All of this makes Jasmine a multi-canister dapp.
 
 :: UserGeek -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs, All information is anonymous.
 
+This project follows the all-contributors specification. 
+Contributions of any kind welcome!
+
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
 
