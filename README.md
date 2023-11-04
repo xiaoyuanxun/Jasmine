@@ -43,6 +43,18 @@ built on the DFINITY Internet Computer.
 * [Chakra UI](https://chakra-ui.com/)          -- a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
 * [vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
 
+## How To Run dApp
+
+First make sure you have the following packages installed
+
+- [ICP SDK](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
+
+- [Vessel](https://github.com/dfinity/vessel)
+
+Then, run the following command
+```bash
+./start.sh
+```
 
 ## Design Approach
 

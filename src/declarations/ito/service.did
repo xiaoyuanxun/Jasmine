@@ -1,0 +1,49 @@
+type AccountIdentifier = vec nat8;
+type AccountRecordSerialized = record { tokens : vec TokenIdentifier };
+type Balance = nat64;
+type Basket = vec opt TokenIdentifier;
+type CanisterRange = record { CanisterSlot; CanisterSlot };
+type CanisterSlot = nat64;
+type Class = service {
+  add : (TokenIdentifier) -> (Result_3);
+  airdrop_add : (vec nat8) -> (Result_3);
+  airdrop_use : (AccountIdentifier) -> (Result_4);
+  buy_tx : (nat, TransactionId, opt SubAccount) -> (Result_4);
+  claim : (AccountIdentifier, opt SubAccount, TokenIdentifier) -> (Result_3);
+  icp_balance : () -> (Result_2);
+  icp_transfer : (AccountIdentifier, Balance) -> (Result_1);
+  owned : (AccountIdentifier) -> (Result) query;
+  set_admin : (principal) -> () oneway;
+  set_anvil_config : (Config) -> ();
+  set_params : (record { airdrop : nat; purchase : nat }) -> () oneway;
+  stats : () -> (
+      record {
+        total : nat;
+        added : nat;
+        available : nat;
+        airdrop : nat;
+        purchase : nat;
+      },
+    ) query;
+};
+type Config = record {
+  nft : CanisterRange;
+  pwr : CanisterRange;
+  anvil : CanisterSlot;
+  history : CanisterSlot;
+  nft_avail : vec CanisterSlot;
+  space : vec vec nat64;
+  account : CanisterRange;
+  history_range : CanisterRange;
+  router : principal;
+  treasury : CanisterSlot;
+};
+type Result = variant { ok : AccountRecordSerialized; err : text };
+type Result_1 = variant { ok : vec nat8; err : text };
+type Result_2 = variant { ok : Balance; err : text };
+type Result_3 = variant { ok; err : text };
+type Result_4 = variant { ok : Basket; err : text };
+type SubAccount = vec nat8;
+type TokenIdentifier = nat64;
+type TransactionId = vec nat8;
+service : Class
