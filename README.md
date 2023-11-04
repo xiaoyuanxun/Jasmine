@@ -80,7 +80,7 @@ For our story integration we use CanDB, a flexible, performant, and horizontally
 
 All of this makes Jasmine a multi-canister dapp.
 
-## ICP, Anvil Protocol, CanDB and APIs
+## ICP Blockchain/Anvil Protocol/CanDB and APIs
 
 :: ICP blockchain -- The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. 
 
