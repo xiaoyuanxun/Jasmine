@@ -1,6 +1,6 @@
 <h3 align="left">Repository for Jasmine</h3>
 
-![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/03c09d93-641b-45dc-baec-15ac62ef10d0)
+![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/0df3f056-a8cb-411b-b7d6-0fa8c9784298)
 
 <div align="center" id="top">
   <p align="left">
