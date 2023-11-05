@@ -43,19 +43,6 @@ built on the DFINITY Internet Computer.
 * [Chakra UI](https://chakra-ui.com/)          -- a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
 * [vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
 
-## How To Run dApp
-
-First make sure you have the following packages installed
-
-- [ICP SDK](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
-
-- [Vessel](https://github.com/dfinity/vessel)
-
-Then, run the following command
-```bash
-./start.sh
-```
-
 ## Design Approach
 
 Jasmine is built on top of the ICP blockchain - meaning the frontend and backend are both hosted on the blockchain. 
@@ -80,17 +67,35 @@ For our story integration we use CanDB, a flexible, performant, and horizontally
 
 All of this makes Jasmine a multi-canister dapp.
 
-## ICP Blockchain/Anvil Protocol/CanDB and APIs
+## ICP Blockchain、Anvil Protocol、CanDB and APIs
 
-:: ICP blockchain -- The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. 
+@ICP blockchain -- The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. 
 
-:: authentication -- Our dapps authentication uses [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/) which is currently an ICP specific authentication system, it is secure and powered by cryptography and allows users to create anonymous user IDs and wallets. 
+@authentication -- Our dapps authentication uses [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/) which is currently an ICP specific authentication system, it is secure and powered by cryptography and allows users to create anonymous user IDs and wallets. 
 
-:: Anvil Protocol -- We have integrated the Anvil Protocol which allows us to achieve NFT integration aswell as providing us with a variety of tools, including `vessel` and `npm` packages. Our marketplace, inventory and ICP wallet are all powered by the Anvil Protocol. 
+@Anvil Protocol -- We have integrated the Anvil Protocol which allows us to achieve NFT integration aswell as providing us with a variety of tools, including `vessel` and `npm` packages. Our marketplace, inventory and ICP wallet are all powered by the Anvil Protocol. 
 
-:: CanDB -- We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Jasmine a highly scalable dapp that sticks purely to blockchain infrastructure. 
+@CanDB -- We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Jasmine a highly scalable dapp that sticks purely to blockchain infrastructure. 
 
-:: UserGeek -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs, All information is anonymous.
+@UserGeek -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs, All information is anonymous.
+
+## How To Build and Run
+
+First make sure you have the following packages installed
+
+- [ICP SDK](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
+
+- [Vessel](https://github.com/dfinity/vessel)
+
+download the project source code and the enter the working directory
+```bash
+git clone https://github.com/xiaoyuanxun/Jasmine.git
+cd Jasmine
+```
+Then, run the following command
+```bash
+./start.sh
+```
 
 This project follows the all-contributors specification. 
 Contributions of any kind welcome!
