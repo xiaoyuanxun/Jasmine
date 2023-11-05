@@ -101,9 +101,21 @@ Download the project source code and the enter the working directory
 git clone https://github.com/xiaoyuanxun/Jasmine.git
 cd Jasmine
 ```
-Then, run the following cli command
+Next, run the following cli command
 ```bash
 ./start.sh
+```
+And then， the dfx command will deploy Smartcontract to canister
+```bash
+echo "Starting DFX server..."
+dfx stop >/dev/null 2>&1
+dfx start --clean --background >/dev/null 2>&1 || { echo "error starting server!"; exit 1; }
+echo "Launching Canisters..."
+# dfx deploy >/dev/null 2>&1 || { echo "error deploying canisters!"; exit 1; }
+dfx deploy index >/dev/null 2>&1 || { echo "error deploying index canister!"; exit 1; }
+dfx deploy ito >/dev/null 2>&1 || { echo "error deploying ito canister!"; exit 1; }
+dfx deploy kontribute_dapp_assets >/dev/null 2>&1 || { echo "error deploying frontend canister!"; exit 1; }
+echo "App Started Successfully!"
 ```
 
 This project follows the all-contributors specification. 
