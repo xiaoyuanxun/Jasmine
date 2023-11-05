@@ -41,7 +41,7 @@ built on the DFINITY Internet Computer.
 
 * [React Redux](https://react-redux.js.org/)   -- official React UI bindings layer for Redux.
 * [Chakra UI](https://chakra-ui.com/)          -- a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
-* [vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
+* [Vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
 
 ## Design Approach
 
