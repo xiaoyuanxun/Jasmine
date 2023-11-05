@@ -84,7 +84,7 @@ All of this makes Jasmine a multi-canister dapp.
 First make sure you have the following packages installed
 
 - [ICP SDK](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
-   -- To install the IC SDK, run
+   -- To install the IC SDK, run the following command
   ```bash
   sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
   ```
