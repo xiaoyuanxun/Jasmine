@@ -77,7 +77,8 @@ All of this makes Jasmine a multi-canister dapp.
 
 @CanDB -- We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Jasmine a highly scalable dapp that sticks purely to blockchain infrastructure. 
 
-@UserGeek -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs, All information is anonymous.
+@UserGeek -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs. All information is anonymous.
+
 
 
 ## How To Build and Run
