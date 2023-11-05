@@ -94,12 +94,12 @@ First make sure you have the following packages installed
   ```bash
   https://github.com/dfinity/vessel/releases
   ```
-download the project source code and the enter the working directory
+Download the project source code and the enter the working directory
 ```bash
 git clone https://github.com/xiaoyuanxun/Jasmine.git
 cd Jasmine
 ```
-Then, run the following command
+Then, run the following cli command
 ```bash
 ./start.sh
 ```
