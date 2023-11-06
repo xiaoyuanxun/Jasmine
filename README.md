@@ -119,7 +119,7 @@ echo "App Started Successfully!"
 ```
 
 This project follows the all-contributors specification. 
-Contributions of any kind welcome!
+ <p align="left"> Contributions of any kind is welcome! </p>
 
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
