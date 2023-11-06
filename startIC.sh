@@ -6,4 +6,4 @@ dfx canister --network ic status index
 sleep 2
 echo "Starting Canister deployment..."
 dfx deploy --network ic index
-dfx deploy --network ic kontribute_dapp_assets
+dfx deploy --network ic jasmine_dapp_assets

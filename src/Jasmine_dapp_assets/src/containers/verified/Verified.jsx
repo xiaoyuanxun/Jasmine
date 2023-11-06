@@ -3,7 +3,7 @@ export const VERIFIED = [
   "Thedogles",
   "TsuDohNimh",
   "jes1",
-  "Kontribute",
+  "Jasmine",
   "Web3 ⚡ William",
   "SuitedCrypto",
 ];

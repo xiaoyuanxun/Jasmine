@@ -18,7 +18,7 @@
 
 ## About Jasmine
 
-Dapp Demo address: [Kontribute.app](https://kontribute.app).
+Dapp Demo address: [Jasmine.app](https://jasmine.app).
 
 Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
 
@@ -114,7 +114,7 @@ echo "Launching Canisters..."
 # dfx deploy >/dev/null 2>&1 || { echo "error deploying canisters!"; exit 1; }
 dfx deploy index >/dev/null 2>&1 || { echo "error deploying index canister!"; exit 1; }
 dfx deploy ito >/dev/null 2>&1 || { echo "error deploying ito canister!"; exit 1; }
-dfx deploy kontribute_dapp_assets >/dev/null 2>&1 || { echo "error deploying frontend canister!"; exit 1; }
+dfx deploy jasmine_dapp_assets >/dev/null 2>&1 || { echo "error deploying frontend canister!"; exit 1; }
 echo "App Started Successfully!"
 ```
 

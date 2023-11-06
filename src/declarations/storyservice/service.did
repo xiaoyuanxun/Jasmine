@@ -1,0 +1,122 @@
+type AttributeKey = text;
+type AttributeValue = variant {
+  "int" : int;
+  float : float64;
+  tuple : vec AttributeValuePrimitive;
+  "blob" : vec nat8;
+  "bool" : bool;
+  "text" : text;
+  tree : Tree;
+  arrayBool : vec bool;
+  arrayText : vec text;
+  arrayInt : vec int;
+  arrayFloat : vec float64;
+};
+type AttributeValuePrimitive = variant {
+  "int" : int;
+  float : float64;
+  "bool" : bool;
+  "text" : text;
+};
+type AttributeValueRBTreeValue = variant {
+  "int" : int;
+  float : float64;
+  tuple : vec AttributeValuePrimitive;
+  "blob" : vec nat8;
+  "bool" : bool;
+  "text" : text;
+  arrayBool : vec bool;
+  arrayText : vec text;
+  arrayInt : vec int;
+  arrayFloat : vec float64;
+};
+type AuthorDetails = record {
+  bio : text;
+  pseudonym : text;
+  nftProfilePic : text;
+};
+type AutoScalingCanisterSharedFunctionHook = func (text) -> (text);
+type Color = variant { B; R };
+type ConsumableEntity = record {
+  pk : PK;
+  sk : SK;
+  attributes : vec record { AttributeKey; AttributeValue };
+};
+type PK = text;
+type Result = variant { ok : opt ConsumableEntity; err : text };
+type Result_1 = variant { ok : vec opt VotingProposal; err : text };
+type Result_2 = variant { ok : opt VotingProposal; err : text };
+type Result_3 = variant { ok : opt AuthorDetails; err : text };
+type SK = text;
+type ScalingLimitType = variant { heapSize : nat; count : nat };
+type ScalingOptions = record {
+  autoScalingHook : AutoScalingCanisterSharedFunctionHook;
+  sizeLimit : ScalingLimitType;
+};
+type ScanStoriesQuickElement = record {
+  sortKey : text;
+  genre : text;
+  groupName : text;
+};
+type ScanStoriesQuickReturn = record {
+  stories : vec ScanStoriesQuickElement;
+  nextKey : opt text;
+};
+type ScanStoriesResult = record {
+  stories : vec SingleStory;
+  nextKey : opt text;
+};
+type SingleStory = record {
+  title : text;
+  responses : int;
+  views : int;
+  body : text;
+  time : int;
+  author : text;
+  likes : int;
+  genre : text;
+  address : text;
+  proposals : int;
+  groupName : text;
+  monetizedAddress : text;
+  monetized : bool;
+};
+type StoryService = service {
+  checkIfLiked : (text) -> (bool) query;
+  checkIfVoted : (text) -> (bool) query;
+  closeProposals : (text) -> (text);
+  deleteStory : (text) -> (opt ConsumableEntity);
+  getAuthorDetails : (text) -> (Result_3) query;
+  getPK : () -> (text) query;
+  getProposal : (text) -> (Result_2) query;
+  getProposals : (text) -> (Result_1) query;
+  getStory : (text) -> (opt SingleStory) query;
+  incrementView : (text) -> (opt ConsumableEntity);
+  likeStory : (text) -> (Result);
+  putAuthorDetails : (AuthorDetails) -> (text);
+  putStory : (SingleStory, vec VotingProposal) -> (text);
+  scanAllFullStories : (text, text, nat, opt bool) -> (ScanStoriesResult) query;
+  scanAllStories : (text, text, nat, opt bool) -> (
+      ScanStoriesQuickReturn,
+    ) query;
+  skExists : (text) -> (bool) query;
+  transferCycles : () -> ();
+  voteOnProposal : (text, text) -> (Result);
+};
+type Tree = variant {
+  leaf;
+  node : record {
+    Color;
+    Tree;
+    record { text; opt AttributeValueRBTreeValue };
+    Tree;
+  };
+};
+type VotingProposal = record {
+  title : text;
+  votes : int;
+  body : text;
+  open : bool;
+  proposalNumber : int;
+};
+service : StoryService

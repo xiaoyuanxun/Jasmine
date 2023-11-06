@@ -8,7 +8,7 @@ const upgrade_pk = async () => {
   // we need to `dfx build storyservice` canister to get latest local wasm to deploy
   // we comment out the last line in storyservice index.js
 
-  let userServiceWasmPath = `${homedir}/Desktop/Kontribute Resources/kontribute_dapp/.dfx/local/canisters/storyservice/storyservice.wasm`
+  let userServiceWasmPath = `${homedir}/Desktop/Jasmine Resources/jasmine_dapp/.dfx/local/canisters/storyservice/storyservice.wasm`
   let wasm = loadWasm(userServiceWasmPath) // need to build wasm
 
   const pks = await indexClient.indexCanisterActor.getPKs()

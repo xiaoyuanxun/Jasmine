@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../../assets/kontribute_logo.png";
+import logo from "../../../assets/jasmine_logo.png";
 import {
   useBreakpointValue,
   Box,

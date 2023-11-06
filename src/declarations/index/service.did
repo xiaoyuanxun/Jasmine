@@ -1,0 +1,11 @@
+type IndexCanister = service {
+  authTest : () -> (text);
+  autoScaleStoryServiceCanister : (text) -> (text);
+  createStoryServiceCanisterParitition : () -> (opt text);
+  deleteServiceCanister : (text) -> ();
+  getAllCanisterIdsByPK : (text) -> (vec text);
+  getCanistersByPK : (text) -> (vec text) query;
+  getPKs : () -> (vec text) query;
+  upgradeStoryServiceCanistersByPK : (text, vec nat8) -> (text);
+};
+service : IndexCanister

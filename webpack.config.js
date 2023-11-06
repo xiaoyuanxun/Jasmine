@@ -39,7 +39,7 @@ const canisterEnvVariables = initCanisterEnv();
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
-const frontendDirectory = "kontribute_dapp_assets";
+const frontendDirectory = "jasmine_dapp_assets";
 
 const asset_entry = path.join("src", frontendDirectory, "src", "index.html");
 

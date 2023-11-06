@@ -1,0 +1,170 @@
+type VotingProposal = 
+ record {
+   body: text;
+   open: bool;
+   proposalNumber: int;
+   title: text;
+   votes: int;
+ };
+type Tree = 
+ variant {
+   leaf;
+   node:
+    record {
+      Color;
+      Tree;
+      record {
+        text;
+        opt AttributeValueRBTreeValue;
+      };
+      Tree;
+    };
+ };
+type StoryService = 
+ service {
+   checkIfLiked: (text) -> (bool) query;
+   checkIfVoted: (text) -> (bool) query;
+   closeProposals: (text) -> (text);
+   deleteStory: (text) -> (opt ConsumableEntity);
+   getAuthorDetails: (text) -> (Result_3) query;
+   getPK: () -> (text) query;
+   getProposal: (text) -> (Result_2) query;
+   getProposals: (text) -> (Result_1) query;
+   getStory: (text) -> (opt SingleStory) query;
+   incrementView: (text) -> (opt ConsumableEntity);
+   likeStory: (text) -> (Result);
+   putAuthorDetails: (AuthorDetails) -> (text);
+   putStory: (SingleStory, vec VotingProposal) -> (text);
+   scanAllFullStories: (text, text, nat, opt bool) ->
+    (ScanStoriesResult) query;
+   scanAllStories: (text, text, nat, opt bool) ->
+    (ScanStoriesQuickReturn) query;
+   skExists: (text) -> (bool) query;
+   transferCycles: () -> ();
+   voteOnProposal: (text, text) -> (Result);
+ };
+type SingleStory = 
+ record {
+   address: text;
+   author: text;
+   body: text;
+   genre: text;
+   groupName: text;
+   likes: int;
+   monetized: bool;
+   monetizedAddress: text;
+   proposals: int;
+   responses: int;
+   time: int;
+   title: text;
+   views: int;
+ };
+type ScanStoriesResult = 
+ record {
+   nextKey: opt text;
+   stories: vec SingleStory;
+ };
+type ScanStoriesQuickReturn = 
+ record {
+   nextKey: opt text;
+   stories: vec ScanStoriesQuickElement;
+ };
+type ScanStoriesQuickElement = 
+ record {
+   genre: text;
+   groupName: text;
+   sortKey: text;
+ };
+type ScalingOptions = 
+ record {
+   autoScalingHook: AutoScalingCanisterSharedFunctionHook;
+   sizeLimit: ScalingLimitType;
+ };
+type ScalingLimitType = 
+ variant {
+   count: nat;
+   heapSize: nat;
+ };
+type SK = text;
+type Result_3 = 
+ variant {
+   err: text;
+   ok: opt AuthorDetails;
+ };
+type Result_2 = 
+ variant {
+   err: text;
+   ok: opt VotingProposal;
+ };
+type Result_1 = 
+ variant {
+   err: text;
+   ok: vec opt VotingProposal;
+ };
+type Result = 
+ variant {
+   err: text;
+   ok: opt ConsumableEntity;
+ };
+type PK = text;
+type ConsumableEntity = 
+ record {
+   attributes: vec record {
+                     AttributeKey;
+                     AttributeValue;
+                   };
+   pk: PK;
+   sk: SK;
+ };
+type Color = 
+ variant {
+   B;
+   R;
+ };
+type AutoScalingCanisterSharedFunctionHook = func (text) -> (text);
+type AuthorDetails = 
+ record {
+   bio: text;
+   nftProfilePic: text;
+   pseudonym: text;
+ };
+type AttributeValueRBTreeValue = 
+ variant {
+   arrayBool: vec bool;
+   arrayFloat: vec float64;
+   arrayInt: vec int;
+   arrayText: vec text;
+   "blob": blob;
+   "bool": bool;
+   float: float64;
+   "int": int;
+   "text": text;
+   tuple: vec AttributeValuePrimitive;
+ };
+type AttributeValuePrimitive = 
+ variant {
+   "bool": bool;
+   float: float64;
+   "int": int;
+   "text": text;
+ };
+type AttributeValue = 
+ variant {
+   arrayBool: vec bool;
+   arrayFloat: vec float64;
+   arrayInt: vec int;
+   arrayText: vec text;
+   "blob": blob;
+   "bool": bool;
+   float: float64;
+   "int": int;
+   "text": text;
+   tree: Tree;
+   tuple: vec AttributeValuePrimitive;
+ };
+type AttributeKey = text;
+service : (record {
+             owners: opt vec principal;
+             partitionKey: text;
+             scalingOptions: ScalingOptions;
+           }) -> StoryService

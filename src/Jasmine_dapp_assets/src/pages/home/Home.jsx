@@ -48,7 +48,7 @@ const Home = () => {
                 fontSize={{ base: "lg", md: "xl" }}
                 maxW={{ base: "xs", md: "xl" }}
               >
-                Kontribute is a new web3 creators platform built on ICP
+                Jasmine is a new web3 creators platform built on ICP
               </Text>
             </Center>
           </Stack>

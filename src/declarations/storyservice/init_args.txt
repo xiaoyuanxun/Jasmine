@@ -1,0 +1,7 @@
+(
+  record {
+    owners : opt vec principal;
+    partitionKey : text;
+    scalingOptions : ScalingOptions;
+  },
+)

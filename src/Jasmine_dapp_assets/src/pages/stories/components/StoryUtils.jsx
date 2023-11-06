@@ -184,7 +184,7 @@ const StoryUtils = ({
           </Button>
           <TipAuthor address={address} loggedIn={loggedIn} />
           <a
-            href={`https://twitter.com/intent/tweet?text=Check out this story on Kontribute📜%0a&url=https://3ezq7-iqaaa-aaaal-aaacq-cai.raw.ic0.app${encodeURIComponent(
+            href={`https://twitter.com/intent/tweet?text=Check out this story on Jasmine📜%0a&url=https://3ezq7-iqaaa-aaaal-aaacq-cai.raw.ic0.app${encodeURIComponent(
               location.pathname
             )}%0a&hashtags=Web3Storytelling`}
             data-show-count="false"

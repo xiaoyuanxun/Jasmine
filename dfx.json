@@ -12,7 +12,7 @@
       "main": "src/Jasmine_dapp/canDB/StoryService.mo",
       "type": "motoko"
     },
-    "Jasmine_dapp_assets": {
+    "jasmine_dapp_assets": {
       "dependencies": ["index"],
       "frontend": {
         "entrypoint": "src/Jasmine_dapp_assets/src/index.html"
