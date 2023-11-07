@@ -1,8 +1,8 @@
 import { Actor, HttpAgent } from "@dfinity/agent";
 
 // Imports and re-exports candid interface
-import { idlFactory } from "./ito/ito.did.js";
-export { idlFactory } from "./ito/ito.did.js";
+import { idlFactory } from "./ito/service.did.js";
+export { idlFactory } from "./ito/service.did.js";
 // CANISTER_ID is replaced by webpack based on node environment
 export const canisterId = process.env.REACT_APP_ITO_CANISTER_ID;
 console.log("REACT_APP_ITO_CANISTER_ID", canisterId);
