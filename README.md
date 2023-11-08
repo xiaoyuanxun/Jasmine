@@ -123,8 +123,23 @@ This project follows the all-contributors specification.
  <p align="left"> Contributions of any kind is welcome! </p>
 
 ## Troubleshooting
- <p align="left"> Under construction …… </p>
- 
+ <p align="left"> You may have problem with Vessel package，first test with command： </p>
+ ```bash
+vessel --version
+```
+if the package is installed success，it will return the result
+```bash
+vessel 0.6.4
+```
+And then use the install command to download dependency
+```bash
+vessel install
+```
+Help information with command
+```bash
+vessel --Help
+```
+
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
 
