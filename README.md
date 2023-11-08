@@ -124,7 +124,7 @@ This project follows the all-contributors specification.
 
 ##Troubleshooting
  <p align="left"> Under construction …… </p>
- <br>
+ 
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
 
