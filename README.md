@@ -122,7 +122,7 @@ echo "App Started Successfully!"
 This project follows the all-contributors specification. 
  <p align="left"> Contributions of any kind is welcome! </p>
 
-##Troubleshooting
+## Troubleshooting
  <p align="left"> Under construction …… </p>
  
 ## License
