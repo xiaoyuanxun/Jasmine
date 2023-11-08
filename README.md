@@ -123,11 +123,11 @@ This project follows the all-contributors specification.
  <p align="left"> Contributions of any kind is welcome! </p>
 
 ## Troubleshooting
-You may encounter trouble with Vessel package，try test command first
+You may encounter trouble with Vessel package，try this test command
  ```bash
   vessel --version
  ```
-if the package is installed success，it will return the result
+if the Vessel package is installed successful，it will return the result
 ```bash
  vessel 0.6.4
 ```
@@ -135,7 +135,7 @@ And then use the install command to download dependency
 ```bash
  vessel install
 ```
-Help information with command
+Obtain help information with command
 ```bash
  vessel --Help
 ```
