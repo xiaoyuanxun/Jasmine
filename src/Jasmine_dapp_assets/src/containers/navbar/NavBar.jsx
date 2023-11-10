@@ -89,9 +89,9 @@ const NavBar = () => {
           <Flex align="center">
             <NavLink to={"/"}>
               <Flex align="center" me={5}>
-                <ChakraImage h={30} src={logo} />
+                {/* <ChakraImage h={30} src={logo} /> */}
                 <Text fontSize={20} as="samp" color="white">
-                  asmine
+                  Jasmine
                 </Text>
               </Flex>
             </NavLink>

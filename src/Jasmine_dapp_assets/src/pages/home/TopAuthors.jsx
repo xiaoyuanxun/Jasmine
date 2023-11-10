@@ -26,6 +26,7 @@ import { FcApproval } from "react-icons/fc";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import { VERIFIED } from "../../containers/verified/Verified";
 import { motion } from "framer-motion";
+import defaultTopAuthor from '../../../assets/defaultTopAuthor.jpg';
 
 const AUTHORS = [
   "3zgw5-lwcb5-szvtp-tkqbu-zcdmp-qphq3-4gmre-75bbr-airu3-kfyeq-4ae",
@@ -52,8 +53,8 @@ const TopAuthors = () => {
 
   const loadAuthors = () => {
     if (smallOrBigScreen === "big") {
-      if (page < 3) {
-        setAuthorsToShow(AUTHORS.slice(page * 3, (page + 1) * 3));
+      if (page < 4) {
+        setAuthorsToShow(AUTHORS.slice(page * 4, (page + 1) * 4));
         setTotalPages(TOTALPAGESBIGSCREEN);
       } else {
         setPage(0);
@@ -102,7 +103,7 @@ const TopAuthors = () => {
           _hover={{ boxShadow: "lg" }}
         />
         <SimpleGrid
-          columns={{ base: 1, md: 1, lg: 3 }}
+          columns={{ base: 1, md: 1, lg: 4 }}
           pb={5}
           gap={{ base: 0, md: 6 }}
           px={1}
@@ -132,7 +133,7 @@ const TopAuthors = () => {
 export default TopAuthors;
 
 const TopAuthorCard = ({ author, direction }) => {
-  const [src, setSrc] = useState("");
+  const [src, setSrc] = useState("../../../assets/defaultTopAuthor.jpg");
   const [authorDetails, setAuthorDetails] = useState({});
   const [totalViews, setTotalViews] = useState(0);
   const [totalLikes, setTotalLikes] = useState(0);
@@ -244,13 +245,14 @@ const TopAuthorCard = ({ author, direction }) => {
                 transform: "scale(1.05)",
               }}
               src={src}
-              fallback={
-                <Avatar
-                  h={{ base: "330px", md: "400px" }}
-                  w="auto"
-                  borderRadius="lg"
-                />
-              }
+              fallbackSrc={defaultTopAuthor}
+              // fallback={         
+              //   // <Avatar
+              //   //   h={{ base: "330px", md: "400px" }}
+              //   //   w="auto"
+              //   //   borderRadius="lg"
+              //   // />
+              // }
               objectFit="cover"
               boxSize={{ base: "330px", md: "400px" }}
             />
