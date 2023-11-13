@@ -30,30 +30,35 @@ const Home = () => {
   return (
     <>
       {/* <HomeAlert /> */}
-      <Box color={textColor} px={3} pb={20}>
-        <Center pb={{ base: 0, md: 3 }} mt={{ base: 5, md: 8 }}>
-          <Stack spacing={3} textAlign="center">
-            <Heading
-              lineHeight={1.1}
-              fontWeight={"bold"}
-              fontSize={{ base: "3xl", sm: "4xl", lg: "5xl" }}
-              bgGradient={`linear(to-tl, #f9c051, #d0a85d)`}
-              bgClip="text"
-              transition="0.3s"
-            >
-              Explore stories and discover art
-            </Heading>
-            <Center>
-              <Text
-                fontSize={{ base: "lg", md: "xl" }}
-                maxW={{ base: "xs", md: "xl" }}
+      <Box color={textColor} px={3} pb={20} >
+
+        <Box 
+          bgImage="url('https://i.seadn.io/s/raw/files/8e55a1e3891d317e3a747fba5f4cef81.jpg?auto=format&dpr=1&w=1000')"
+          >
+          <Center pb={{ base: 0, md: 3 }} mt={{ base: 5, md: 8 }}>
+            <Stack spacing={3} textAlign="center">
+              <Heading
+                lineHeight={1.1}
+                fontWeight={"bold"}
+                fontSize={{ base: "3xl", sm: "4xl", lg: "5xl" }}
+                bgGradient={`linear(to-tl, #f9c051, #d0a85d)`}
+                bgClip="text"
+                transition="0.3s"
               >
-                Jasmine is a new web3 creators platform built on ICP
-              </Text>
-            </Center>
-          </Stack>
-        </Center>
-        <TopAuthors />
+                Explore stories and discover art
+              </Heading>
+              <Center>
+                <Text
+                  fontSize={{ base: "lg", md: "xl" }}
+                  maxW={{ base: "xs", md: "xl" }}
+                >
+                  Jasmine is a new web3 creators platform built on ICP
+                </Text>
+              </Center>
+            </Stack>
+          </Center>
+          <TopAuthors />
+        </Box>
         <TopStories />
         <TopNfts />
         <CardInfo />

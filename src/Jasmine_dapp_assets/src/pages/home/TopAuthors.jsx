@@ -97,7 +97,7 @@ const TopAuthors = () => {
           bg={bgColor}
           boxShadow="md"
           borderRadius="100%"
-          mr={-6}
+          mr={0}
           zIndex={1}
           onClick={() => changePage("prev")}
           _hover={{ boxShadow: "lg" }}
@@ -120,7 +120,7 @@ const TopAuthors = () => {
           bg={bgColor}
           boxShadow="md"
           borderRadius="100%"
-          ml={-6}
+          ml={0}
           zIndex={1}
           onClick={() => changePage("next")}
           _hover={{ boxShadow: "lg" }}
