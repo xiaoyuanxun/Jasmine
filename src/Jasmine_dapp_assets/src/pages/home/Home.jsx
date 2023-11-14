@@ -30,13 +30,13 @@ const Home = () => {
   return (
     <>
       {/* <HomeAlert /> */}
-      <Box color={textColor} px={3} pb={20} >
+      <Box color={textColor} pb={20} >
 
         <Box 
           bgImage="url('https://i.seadn.io/s/raw/files/8e55a1e3891d317e3a747fba5f4cef81.jpg?auto=format&dpr=1&w=1000')"
           >
-          <Center pb={{ base: 0, md: 3 }} mt={{ base: 5, md: 8 }}>
-            <Stack spacing={3} textAlign="center">
+          <Center pb={{ base: 0, md: 3 }} mt='2.9' mb='35'>
+            <Stack spacing={3} textAlign="center" pt='68'>
               <Heading
                 lineHeight={1.1}
                 fontWeight={"bold"}
@@ -51,6 +51,7 @@ const Home = () => {
                 <Text
                   fontSize={{ base: "lg", md: "xl" }}
                   maxW={{ base: "xs", md: "xl" }}
+                  color='white'
                 >
                   Jasmine is a new web3 creators platform built on ICP
                 </Text>

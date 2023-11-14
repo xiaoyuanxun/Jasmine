@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../../assets/jasmine_logo.png";
+import logo from "../../../assets/jasmine_logo.jpg";
 import {
   useBreakpointValue,
   Box,
@@ -89,7 +89,7 @@ const NavBar = () => {
           <Flex align="center">
             <NavLink to={"/"}>
               <Flex align="center" me={5}>
-                {/* <ChakraImage h={30} src={logo} /> */}
+                <ChakraImage h={30} src={logo} />
                 <Text fontSize={20} as="samp" color="white">
                   Jasmine
                 </Text>

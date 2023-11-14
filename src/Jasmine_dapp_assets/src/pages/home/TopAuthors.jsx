@@ -97,7 +97,7 @@ const TopAuthors = () => {
           bg={bgColor}
           boxShadow="md"
           borderRadius="100%"
-          mr={0}
+          mr={25}
           zIndex={1}
           onClick={() => changePage("prev")}
           _hover={{ boxShadow: "lg" }}
@@ -107,7 +107,7 @@ const TopAuthors = () => {
           pb={5}
           gap={{ base: 0, md: 6 }}
           px={1}
-          maxW="1200px"
+          maxW="1400px"
           overflow="hidden"
         >
           {authorsToShow.map((item) => (
@@ -120,7 +120,7 @@ const TopAuthors = () => {
           bg={bgColor}
           boxShadow="md"
           borderRadius="100%"
-          ml={0}
+          ml={25}
           zIndex={1}
           onClick={() => changePage("next")}
           _hover={{ boxShadow: "lg" }}
@@ -254,7 +254,7 @@ const TopAuthorCard = ({ author, direction }) => {
               //   // />
               // }
               objectFit="cover"
-              boxSize={{ base: "330px", md: "400px" }}
+              boxSize="330px"
             />
           </Box>
           <Box p={5}>

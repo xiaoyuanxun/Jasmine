@@ -52,7 +52,7 @@ const SocialCards = () => {
           <SingleInfoCard
             image={supernova}
             title={"Github"}
-            href={"https://github.com/teambonsai/bonsai_dapp"}
+            href={"https://github.com/xiaoyuanxun/Jasmine"}
           >
             <FaGithub size={50} />
           </SingleInfoCard>
