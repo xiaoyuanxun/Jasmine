@@ -27,17 +27,25 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import { VERIFIED } from "../../containers/verified/Verified";
 import { motion } from "framer-motion";
 import defaultTopAuthor from '../../../assets/defaultTopAuthor.jpg';
+import author1 from '../../../assets/1.jpg';
+import author2 from '../../../assets/2.jpg';
+import author3 from '../../../assets/3.jpg';
+import author4 from '../../../assets/4.jpg';
+import author5 from '../../../assets/5.jpg';
+import author6 from '../../../assets/6.jpg';
+import author7 from '../../../assets/7.jpg';
+
 
 const AUTHORS = [
-  "3zgw5-lwcb5-szvtp-tkqbu-zcdmp-qphq3-4gmre-75bbr-airu3-kfyeq-4ae",
-  "zqxph-ufrag-xelru-brcwg-4amzv-dxvcm-ws2eq-qg2jm-7kvnc-ugtig-wqe",
-  "j5nhw-364vy-qdycl-y2r2z-d5xbv-7gjd6-ipmfw-omoit-pwz7w-4l25f-xae",
-  "qflw3-vnfgg-ewg4g-rt7y7-zrana-4oruo-jfrbo-i3l5b-rid5c-7o7o2-pae",
-  "7xvg3-yvl47-x2bkx-tg6yr-hdn6p-xtzti-qiwha-gwdqt-pix4u-7ie7i-3qe",
-  "olrda-tpftz-wwerk-7whnq-s3l47-oq4kh-wvumc-byngh-yzkev-3rwze-pae",
-  "bc2fh-bgwnk-fupqb-53xlk-ulfsk-tl7y3-difge-krqya-gb3am-uhwp6-gae",
-  "ztgpg-mqoa6-walku-aw7gp-anwd4-bjo4a-pv75y-2dfyt-3azec-q4fjd-wqe",
-  "gjb2q-dzr7c-xdce5-m3yqz-zx3vg-7vciz-7vgcg-sov33-ln7rs-btbjk-2qe",
+  ["3zgw5-lwcb5-szvtp-tkqbu-zcdmp-qphq3-4gmre-75bbr-airu3-kfyeq-4ae", author1],
+  ["zqxph-ufrag-xelru-brcwg-4amzv-dxvcm-ws2eq-qg2jm-7kvnc-ugtig-wqe", author2],
+  ["j5nhw-364vy-qdycl-y2r2z-d5xbv-7gjd6-ipmfw-omoit-pwz7w-4l25f-xae", author3],
+  ["qflw3-vnfgg-ewg4g-rt7y7-zrana-4oruo-jfrbo-i3l5b-rid5c-7o7o2-pae", author4],
+  ["7xvg3-yvl47-x2bkx-tg6yr-hdn6p-xtzti-qiwha-gwdqt-pix4u-7ie7i-3qe", author5],
+  ["olrda-tpftz-wwerk-7whnq-s3l47-oq4kh-wvumc-byngh-yzkev-3rwze-pae", author6],
+  ["bc2fh-bgwnk-fupqb-53xlk-ulfsk-tl7y3-difge-krqya-gb3am-uhwp6-gae", author7],
+  ["ztgpg-mqoa6-walku-aw7gp-anwd4-bjo4a-pv75y-2dfyt-3azec-q4fjd-wqe", defaultTopAuthor],
+  ["gjb2q-dzr7c-xdce5-m3yqz-zx3vg-7vciz-7vgcg-sov33-ln7rs-btbjk-2qe", defaultTopAuthor]
 ];
 
 // 3 authors on desktop, 1 on mobile
@@ -53,7 +61,7 @@ const TopAuthors = () => {
 
   const loadAuthors = () => {
     if (smallOrBigScreen === "big") {
-      if (page < 4) {
+      if (page < 2) {
         setAuthorsToShow(AUTHORS.slice(page * 4, (page + 1) * 4));
         setTotalPages(TOTALPAGESBIGSCREEN);
       } else {
@@ -110,8 +118,8 @@ const TopAuthors = () => {
           maxW="1400px"
           overflow="hidden"
         >
-          {authorsToShow.map((item) => (
-            <TopAuthorCard author={item} key={item} direction={direction} />
+          {authorsToShow.map(([stringValue, authorObject]) => (
+            <TopAuthorCard author={stringValue} key={stringValue} direction={direction} imageSrc={authorObject}/>
           ))}
         </SimpleGrid>
         <IconButton
@@ -132,8 +140,8 @@ const TopAuthors = () => {
 
 export default TopAuthors;
 
-const TopAuthorCard = ({ author, direction }) => {
-  const [src, setSrc] = useState("../../../assets/defaultTopAuthor.jpg");
+const TopAuthorCard = ({ author, direction, imageSrc }) => {
+  const [src, setSrc] = useState("");
   const [authorDetails, setAuthorDetails] = useState({});
   const [totalViews, setTotalViews] = useState(0);
   const [totalLikes, setTotalLikes] = useState(0);
@@ -244,15 +252,8 @@ const TopAuthorCard = ({ author, direction }) => {
               _hover={{
                 transform: "scale(1.05)",
               }}
-              src={src}
+              src={imageSrc}
               fallbackSrc={defaultTopAuthor}
-              // fallback={         
-              //   // <Avatar
-              //   //   h={{ base: "330px", md: "400px" }}
-              //   //   w="auto"
-              //   //   borderRadius="lg"
-              //   // />
-              // }
               objectFit="cover"
               boxSize="330px"
             />

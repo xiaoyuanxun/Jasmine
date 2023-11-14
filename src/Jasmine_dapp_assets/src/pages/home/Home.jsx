@@ -20,6 +20,7 @@ import TopAuthors from "./TopAuthors";
 import TopStories from "./TopStories";
 import CardInfo from "./CardInfo";
 import SocialCards from "./SocialCards";
+import backgroundImage from '../../../assets/background.jpg';
 
 const Home = () => {
   useEffect(() => {
@@ -33,7 +34,10 @@ const Home = () => {
       <Box color={textColor} pb={20} >
 
         <Box 
-          bgImage="url('https://i.seadn.io/s/raw/files/8e55a1e3891d317e3a747fba5f4cef81.jpg?auto=format&dpr=1&w=1000')"
+          bgImage={backgroundImage}
+          bgSize='cover'
+          // pb='195'
+          height='calc(100vh - 65px)'
           >
           <Center pb={{ base: 0, md: 3 }} mt='2.9' mb='35'>
             <Stack spacing={3} textAlign="center" pt='68'>

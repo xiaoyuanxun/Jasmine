@@ -7,7 +7,12 @@ import {
   Spacer,
   Flex,
   HStack,
+  Button,
   IconButton,
+  Input,
+  InputGroup,
+  InputRightAddon,
+  InputLeftElement,
   Image as ChakraImage,
   Text,
   Drawer,
@@ -19,7 +24,7 @@ import {
   useDisclosure,
   VStack,
 } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, Search2Icon } from "@chakra-ui/icons";
 import Profile from "./Profile";
 import ColorButton from "../colormode/ColorButton";
 
@@ -66,6 +71,29 @@ const NavItem = ({ link, name }) => {
   );
 };
 
+const SearchBar = () => {
+  return (
+    <Box width='100'>
+      <InputGroup borderRadius={5} size="sm">
+        <InputLeftElement 
+          pointerEvents="none"
+          children={<Search2Icon color="gray.600" />}
+        />
+        <Input type="text" placeholder="Search..." border="1px solid #949494" />
+        <InputRightAddon
+          p={0}
+          border="none"
+        >
+          <Button size="sm" borderLeftRadius={0} borderRightRadius={3.3} border="1px solid #949494">
+            Search
+          </Button>
+        </InputRightAddon>
+      </InputGroup>
+    </Box>
+  );
+};
+
+
 const NavBar = () => {
   const isDesktop = useBreakpointValue({ base: false, lg: true });
 
@@ -100,6 +128,8 @@ const NavBar = () => {
                 <NavItem key={link.name} name={link.name} link={link.link} />
               ))}
             </HStack>
+            <Spacer />
+            <SearchBar width='50'/>
             <Spacer />
             <Profile />
             <ColorButton />
