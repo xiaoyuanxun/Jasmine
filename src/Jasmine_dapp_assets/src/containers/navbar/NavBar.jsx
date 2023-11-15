@@ -35,7 +35,7 @@ const LinkItems = [
     link: "/marketplace",
   },
   { name: "Mint", link: "/mint" },
-  // { name: "NobleBright", link: "/noblebright" },
+  { name: "NobleBright", link: "/noblebright" },
 ];
 
 const NavItem = ({ link, name }) => {
@@ -55,7 +55,7 @@ const NavItem = ({ link, name }) => {
             borderRadius="md"
             role="group"
             cursor="pointer"
-            fontWeight={600}
+            fontWeight={620}   // 600
             _hover={{
               bg: "#282828",
             }}
@@ -73,18 +73,18 @@ const NavItem = ({ link, name }) => {
 
 const SearchBar = () => {
   return (
-    <Box width='100'>
+    <Box width='250'>
       <InputGroup borderRadius={5} size="sm">
         <InputLeftElement 
           pointerEvents="none"
           children={<Search2Icon color="gray.600" />}
         />
-        <Input type="text" placeholder="Search..." border="1px solid #949494" />
+        <Input type="text" placeholder="Search...       " border="1px solid #949494" />
         <InputRightAddon
           p={0}
           border="none"
         >
-          <Button size="sm" borderLeftRadius={0} borderRightRadius={3.3} border="1px solid #949494">
+          <Button size="sm" fontWeight={700}  borderLeftRadius={0} borderRightRadius={3.3} border="1px solid #949494">
             Search
           </Button>
         </InputRightAddon>
@@ -118,12 +118,12 @@ const NavBar = () => {
             <NavLink to={"/"}>
               <Flex align="center" me={5}>
                 <ChakraImage h={30} src={logo} />
-                <Text fontSize={20} as="samp" color="white">
-                  Jasmine
+                <Text fontSize={25} as="samp" color="white">
+                  <b>Jasmine </b>
                 </Text>
               </Flex>
             </NavLink>
-            <HStack fontWeight={700} fontSize={16}>
+            <HStack fontWeight={700} fontSize={18}>
               {LinkItems.map((link) => (
                 <NavItem key={link.name} name={link.name} link={link.link} />
               ))}
@@ -140,7 +140,7 @@ const NavBar = () => {
               <Flex align="center" me={5}>
                 <ChakraImage h={25} src={logo} />
                 <Text fontSize={20} as="samp" color="white">
-                  ontribute
+                  Jasmine
                 </Text>
               </Flex>
             </NavLink>

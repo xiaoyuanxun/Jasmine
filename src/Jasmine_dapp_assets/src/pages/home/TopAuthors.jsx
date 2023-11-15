@@ -34,17 +34,17 @@ import author4 from '../../../assets/4.jpg';
 import author5 from '../../../assets/5.jpg';
 import author6 from '../../../assets/6.jpg';
 import author7 from '../../../assets/7.jpg';
-
+import author8 from '../../../assets/8.jpg';
 
 const AUTHORS = [
   ["3zgw5-lwcb5-szvtp-tkqbu-zcdmp-qphq3-4gmre-75bbr-airu3-kfyeq-4ae", author1],
   ["zqxph-ufrag-xelru-brcwg-4amzv-dxvcm-ws2eq-qg2jm-7kvnc-ugtig-wqe", author2],
   ["j5nhw-364vy-qdycl-y2r2z-d5xbv-7gjd6-ipmfw-omoit-pwz7w-4l25f-xae", author3],
-  ["qflw3-vnfgg-ewg4g-rt7y7-zrana-4oruo-jfrbo-i3l5b-rid5c-7o7o2-pae", author4],
+  ["ztgpg-mqoa6-walku-aw7gp-anwd4-bjo4a-pv75y-2dfyt-3azec-q4fjd-wqe", author8],
   ["7xvg3-yvl47-x2bkx-tg6yr-hdn6p-xtzti-qiwha-gwdqt-pix4u-7ie7i-3qe", author5],
+  ["qflw3-vnfgg-ewg4g-rt7y7-zrana-4oruo-jfrbo-i3l5b-rid5c-7o7o2-pae", author4],
   ["olrda-tpftz-wwerk-7whnq-s3l47-oq4kh-wvumc-byngh-yzkev-3rwze-pae", author6],
   ["bc2fh-bgwnk-fupqb-53xlk-ulfsk-tl7y3-difge-krqya-gb3am-uhwp6-gae", author7],
-  ["ztgpg-mqoa6-walku-aw7gp-anwd4-bjo4a-pv75y-2dfyt-3azec-q4fjd-wqe", defaultTopAuthor],
   ["gjb2q-dzr7c-xdce5-m3yqz-zx3vg-7vciz-7vgcg-sov33-ln7rs-btbjk-2qe", defaultTopAuthor]
 ];
 

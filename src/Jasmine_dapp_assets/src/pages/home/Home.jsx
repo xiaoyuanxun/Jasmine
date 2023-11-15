@@ -49,7 +49,7 @@ const Home = () => {
                 bgClip="text"
                 transition="0.3s"
               >
-                Explore stories and discover art
+                Explore Creator Stories and Discover Real Art
               </Heading>
               <Center>
                 <Text
@@ -57,7 +57,10 @@ const Home = () => {
                   maxW={{ base: "xs", md: "xl" }}
                   color='white'
                 >
-                  Jasmine is a new web3 creators platform built on ICP
+                  <b>
+                  <h3>Jasmine is a new Web3 platform built on ICP for Creator</h3>
+                  </b>
+                  <p fontSize={"20em"}>©2023 arkMeta Crypto Network Ltd. All rights reserved</p>
                 </Text>
               </Center>
             </Stack>
