@@ -140,6 +140,7 @@ Obtain help information with command
 ```
 Have a good time while hacking Jasmine project! 
 <p>If you any question, keep intouch with us. Any suggestion will be welcom.<p>
+
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
 
