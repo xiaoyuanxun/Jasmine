@@ -26,7 +26,7 @@ import { FcApproval } from "react-icons/fc";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import { VERIFIED } from "../../containers/verified/Verified";
 import { motion } from "framer-motion";
-import defaultTopAuthor from '../../../assets/defaultTopAuthor.jpg';
+import defaultTopAuthor from '../../../assets/defaultTopAuthor.png';
 import author1 from '../../../assets/1.jpg';
 import author2 from '../../../assets/2.jpg';
 import author3 from '../../../assets/3.jpg';

@@ -138,6 +138,11 @@ Obtain help information with command
 ```bash
  vessel --Help
 ```
+Encounter compiling problem, use follow commands to check the network withgithub.com and authorized right to connect.
+```bash
+  ssh -T git@github.com
+  ssh-add ~/.ssh/id_rsa
+```
 Have a good time while hacking Jasmine project! 
 <p>If you any question, keep intouch with us. Any suggestion will be welcom.<p>
 
