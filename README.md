@@ -139,7 +139,7 @@ Obtain help information with command
  vessel --Help
 ```
 Have a good time while hacking Jasmine project! 
-If you any question, keep intouch with us. Any suggestion will be welcom.
+<p>If you any question, keep intouch with us. Any suggestion will be welcom.<p>
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
 
