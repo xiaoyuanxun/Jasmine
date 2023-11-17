@@ -1,3 +1,6 @@
+//
+//  Types.mo
+//
 import Entity "mo:candb/Entity";
 
 module {

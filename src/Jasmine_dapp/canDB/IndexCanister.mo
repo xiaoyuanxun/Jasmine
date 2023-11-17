@@ -1,3 +1,6 @@
+//
+//  IndexCanister.mo
+//
 import Cycles "mo:base/ExperimentalCycles";
 import Debug "mo:base/Debug";
 import Error "mo:base/Error";
