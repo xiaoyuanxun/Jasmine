@@ -16,7 +16,7 @@ import { FaDiscord, FaTwitter, FaGithub, FaMedium } from "react-icons/fa";
 const SocialCards = () => {
   return (
     <Box mt={{ base: 7, md: 10 }}>
-      <Center pb={3}>
+      < Center pb={3}>
         <Heading fontSize={{ base: "2xl", lg: "3xl" }}>Connect with us</Heading>
       </Center>
       <Center marginTop="5">

@@ -20,6 +20,7 @@ import TopAuthors from "./TopAuthors";
 import TopStories from "./TopStories";
 import CardInfo from "./CardInfo";
 import SocialCards from "./SocialCards";
+// import Heros from "./Heros@";
 import backgroundImage from '../../../assets/background.jpg';
 
 const Home = () => {
