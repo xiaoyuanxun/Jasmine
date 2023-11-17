@@ -7,6 +7,7 @@ const SocialButton = ({ icon, href }) => {
   return (
     <IconButton
       size="lg"
+      fontWeight={'550'}
       cursor={"pointer"}
       as={"a"}
       display={"inline-flex"}
@@ -41,7 +42,7 @@ const Logo = ({props}) => {
 
 const ListHeader = ({ children }) => {
   return (
-    <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
+    <Text fontWeight={'600'} fontSize={'xl'} mb={2}>
       {children}
     </Text>
   )
@@ -61,7 +62,7 @@ const Footer = () => {
               <Box>
                 <Logo color={useColorModeValue('gray.700', 'white')} />
               </Box>
-              <Text fontSize={'sm'}>© 2023 Jasmine. All rights reserved</Text>
+              <Text fontWeight={'500'} fontSize={'md'}>© 2023 Jasmine. All rights reserved</Text>
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Product</ListHeader>

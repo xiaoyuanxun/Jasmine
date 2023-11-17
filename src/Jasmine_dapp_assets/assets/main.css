@@ -17,9 +17,10 @@
 
 .footer {
   position: absolute;
+  font-size: 28px;
   bottom: 0;
   width: 100%;
-  height: 2.5rem; /* Footer height */
+  height: 2.6rem; /* Footer height */
 }
 
 .char__link {
