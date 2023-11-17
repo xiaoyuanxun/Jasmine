@@ -23,6 +23,17 @@ https://jjuzy-piaaa-aaaan-qau4q-cai.icp0.io/
 
 Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
 
+## Basic Concepts
+### What is the Internet Computer (ICP)?
+A new cryptocurrency technology that allows developers to build applications on top of it. It is faster and cheaper than other programmable blockchain alternatives.
+
+### What are canisters?
+Canisters are special smart contracts that run WebAssembly. Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. Our files of code are uploaded into canisters and powered by the ICP blockchain.
+
+### What is Motoko?
+Motoko is a new programming language designed for the Internet Computer - it is a type-safe language for creating backend smart contracts on ICP and bears a resemblance to Rust and C++. To learn more about the language, check out the SDK.
+
+If you're using Visual Studio Code it is recommended to use the Motoko extension.
 
 ### The Tech Stack
 
@@ -69,17 +80,16 @@ For our story integration we use CanDB, a flexible, performant, and horizontally
 All of this makes Jasmine a multi-canister dapp.
 
 ## ICP Blockchain、Anvil Protocol、CanDB and APIs
-`ICP blockchain`  -- The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. 
 
-`Authentication` -- Our dapps authentication uses [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/) which is currently an ICP specific authentication system, it is secure and powered by cryptography and allows users to create anonymous user IDs and wallets. 
+- `ICP blockchain`  -- The ICP blockchain allows us to create "canisters" which can serve your applications code (a canister is just a smart contract which in turn is just code on a blockchain), We use canisters to host both our frontend and backend. 
 
-`Anvil Protocol`  -- We have integrated the Anvil Protocol which allows us to achieve NFT integration aswell as providing us with a variety of tools, including `vessel` and `npm` packages. Our marketplace, inventory and ICP wallet are all powered by the Anvil Protocol. 
+- `Authentication` -- Our dapps authentication uses [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/) which is currently an ICP specific authentication system, it is secure and powered by cryptography and allows users to create anonymous user IDs and wallets. 
 
-`CanDB`  -- We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Jasmine a highly scalable dapp that sticks purely to blockchain infrastructure. 
+- `Anvil Protocol`  -- We have integrated the Anvil Protocol which allows us to achieve NFT integration aswell as providing us with a variety of tools, including `vessel` and `npm` packages. Our marketplace, inventory and ICP wallet are all powered by the Anvil Protocol. 
 
-`UserGeek`  -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs. All information is anonymous.
+- `CanDB`  -- We have integrated the Motoko library CanDB and using this we designed a data model that lets us give each author (anyone who posts a story on the platform) a unique canister that they can own. This makes Jasmine a highly scalable dapp that sticks purely to blockchain infrastructure. 
 
-
+- `UserGeek`  -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs. All information is anonymous.
 
 ## How To Build and Run
 
@@ -144,7 +154,7 @@ Encounter compiling problem, use follow commands to check the network with githu
   ssh-add ~/.ssh/id_rsa
 ```
 Have a good time while hacking Jasmine project! 
-<p>If you any question, keep intouch with us. Any suggestion will be welcom.<p>
+<p>If you any question, keep in touch with us. Any suggestion will be welcom!<p>
 
 ## License
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
