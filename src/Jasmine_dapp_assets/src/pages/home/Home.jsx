@@ -39,7 +39,7 @@ const Home = () => {
           // pb='195'
           height='calc(100vh - 65px)'
           >
-          <Center pb={{ base: 0, md: 3 }} mt='2.9' mb='35'>
+          <Center pb={{ base: 0, md: 3 }} mt='2.9' mb='35' width='85%' margin="0 auto" >
             <Stack spacing={3} textAlign="center" pt='68'>
               <Heading
                 lineHeight={1.1}
@@ -65,14 +65,14 @@ const Home = () => {
               </Center>
             </Stack>
           </Center>
-          <TopAuthors />
+          <TopAuthors  width='85%' margin="0 auto" />
         </Box>
 
 
-        <TopStories />
-        <TopNfts />
-        <CardInfo />
-        <SocialCards />
+        <TopStories  width='85%' margin="0 auto"/>
+        <TopNfts  width='85%' margin="0 auto"/>
+        <CardInfo  width='85%' margin="0 auto"/>
+        <SocialCards  width='85%' margin="0 auto"/>
       </Box>
     </>
   );
