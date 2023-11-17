@@ -45,7 +45,7 @@ const TopNfts = () => {
     <Box mt={{ base: 7, md: 10 }}>
       <Center pb={3}>
         <Heading fontSize={{ base: "2xl", lg: "3xl" }}>
-          Collectible spotlight
+          Collectible Spotlight
         </Heading>
       </Center>
       <Center marginTop="5">

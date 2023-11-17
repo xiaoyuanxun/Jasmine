@@ -76,7 +76,8 @@ const TopStories = () => {
   return (
     <Box mt={{ base: 7, md: 10 }} justifyContent="center" align="center">
       <Center pb={3}>
-        <Heading fontSize={{ base: "2xl", lg: "3xl" }}>Top stories</Heading>
+        <Heading fontSize={{ base: "2xl", lg: "3xl" }}>Top Intresting Stories</Heading>
+        // intresting .......
       </Center>
       <Tabs variant="line" colorScheme="cyan" maxW="1200px">
         <TabList>

@@ -23,7 +23,7 @@ const CardInfo = () => {
     <Box mt={{ base: 7, md: 10 }}>
       <Center pb={3}>
         <Heading fontSize={{ base: "2xl", lg: "3xl" }}>
-          Decentralized social-fi
+          Decentralized Social-fi
         </Heading>
       </Center>
       <Center marginTop="5">

@@ -148,7 +148,7 @@ Obtain help information with command
 ```bash
  vessel --Help
 ```
-Encounter compiling problem, use follow commands to check the network with github.com and authorized right to connect.
+When you encounter compiling problem, use follow commands to check the network with github.com and authorized right to connect. We offen try `dfx deploy `command several times before sucess. 
 ```bash
   ssh -T git@github.com
   ssh-add ~/.ssh/id_rsa
