@@ -21,7 +21,7 @@
 Dapp Demo address: [Jasmine.app](https://jasmine.app).  
 https://jjuzy-piaaa-aaaan-qau4q-cai.icp0.io/
 
-Jasmine allows readers, writers and web 3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
+Jasmine allows readers, writers and Web3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
 
 ## Basic Concepts
 ### What is the Internet Computer (ICP)?
