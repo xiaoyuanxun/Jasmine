@@ -153,6 +153,11 @@ When you encounter compiling problem, use follow commands to check the network w
   ssh -T git@github.com
   ssh-add ~/.ssh/id_rsa
 ```
+ 
+#### Jasmine Dapp Running Screen
+ 
+<img src="https://github.com/xiaoyuanxun/Jasmine/assets/Jasmine@demo.png" width="80">
+ 
 Have a good time while hacking Jasmine project! 
 <p>If you any question, keep in touch with us. Any suggestion will be welcom!<p>
 
