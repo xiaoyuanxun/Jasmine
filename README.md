@@ -24,13 +24,13 @@ https://jjuzy-piaaa-aaaan-qau4q-cai.icp0.io/
 Jasmine allows readers, writers and Web3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
 
 ## Basic Concepts
-### What is the Internet Computer (ICP)?
+1. ### What is the Internet Computer (ICP)?
 A new cryptocurrency technology that allows developers to build applications on top of it. It is faster and cheaper than other programmable blockchain alternatives.
 
-### What are canisters?
+2. ### What are canisters?
 Canisters are special smart contracts that run WebAssembly. Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. Our files of code are uploaded into canisters and powered by the ICP blockchain.
 
-### What is Motoko?
+3. ### What is Motoko?
 Motoko is a new programming language designed for the Internet Computer - it is a type-safe language for creating backend smart contracts on ICP and bears a resemblance to Rust and C++. To learn more about the language, check out the SDK.
 
 If you're using Visual Studio Code it is recommended to use the Motoko extension.
@@ -41,7 +41,7 @@ If you're using Visual Studio Code it is recommended to use the Motoko extension
 * [Motoko](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)  -- The Motoko programming language is a new, modern and type safe language for developers who want to build the next generation of distributed applications to run on the Internet Computer blockchain network. 
 * [DFX](https://internetcomputer.org/docs/current/references/cli-reference/dfx-parent/) -- The DFINITY command-line execution environment (dfx) is the primary tool for creating, deploying, and managing the dapps you develop for the IC.
 
-### ICP Tools
+### ICP Toolchain
 
 * [CanDB](https://github.com/canscale/CanDB)    -- a flexible, performant, and horizontally scalable non-relational multi-canister data storage framework built for the Internet Computer.
 * [Anvil Protocol](https://docs.nftanvil.com/docs/sdk/js)  -- A communication protocol wish to be autonomous, zero maintenance, self-sustainable web3 microservices made to last million+ years.
@@ -51,7 +51,7 @@ built on the DFINITY Internet Computer.
 
 ### Other Tools
 
-* [React Redux](https://react-redux.js.org/)   -- official React UI bindings layer for Redux.
+ * [React Redux](https://react-redux.js.org/)   -- official React UI bindings layer for Redux.
 * [Chakra UI](https://chakra-ui.com/)          -- a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
 * [Vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
 
@@ -63,13 +63,13 @@ We use a variety of tools, web2 and web3 alike. The codebase has been opensource
 
 This project was kickstarted with the `dfx new` command. 
 
-### Frontend
+1. ### Frontend
 
 We try to take a modern approach to the frontend in terms of using modern React practices such as functional components and hooks aswell as implementing the most popular React state management library: Redux. The idea is to make as many readable dynamic components as possible taking a "less is more" approach. 
 
 We are adament that the dapp works and looks nice across all device screens so we use Chakra UI for most of the UI design and CSS, This allows custom and fast development of the UI aswell as responsive components.
 
-### Backend
+2. ### Backend
 
 Our backend is a mix between in house smart contracts written in Motoko aswell as using frontend api's to call external smart contracts on the ICP blockchain. We call features and tools from other Motoko packages using Vessel - a Motoko package manager. 
 
@@ -93,7 +93,7 @@ All of this makes Jasmine a multi-canister dapp.
 
 ## How To Build and Run
 
-First make sure you have the following packages installed
+First make sure you have the following packages installed:
 
 - [ICP SDK](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
    -- To install the IC SDK, run the following command
@@ -158,7 +158,7 @@ When you encounter compiling problem, use follow commands to check the network w
  
 ![img](https://github.com/xiaoyuanxun/Jasmine/blob/main/src/Jasmine_dapp_assets/assets/Jasmine@demo.png)
   
- to be comntinue ......
+> Jasmine Dapp to be continue ......
   
 Have a good time while you hacking Jasmine project! 
 <p>If you any question, keep in touch with us. Any suggestion will be welcom!<p>
