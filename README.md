@@ -60,15 +60,15 @@ This project was kickstarted with the `dfx new` command.
 
 > We try to take a modern approach to the frontend in terms of using modern React practices such as functional components and hooks aswell as implementing the most popular React state management library: Redux. The idea is to make as many readable dynamic components as possible taking a "less is more" approach. 
 
-> We are adament that the dapp works and looks nice across all device screens so we use Chakra UI for most of the UI design and CSS, This allows custom and fast development of the UI aswell as responsive components.
+We are adament that the dapp works and looks nice across all device screens so we use Chakra UI for most of the UI design and CSS, This allows custom and fast development of the UI aswell as responsive components.
 
 ### __Backend__
 
 > Our backend is a mix between in house smart contracts written in Motoko aswell as using frontend api's to call external smart contracts on the ICP blockchain. We call features and tools from other Motoko packages using Vessel - a Motoko package manager. 
 
-> Some of our Motoko backend is calling the Anvil Protocols smart contracts - covering our whole NFT integration. 
+Some of our Motoko backend is calling the Anvil Protocols smart contracts - covering our whole NFT integration. 
 
-> For our story integration we use CanDB, a flexible, performant, and horizontally scalable non-relational multi-canister database built for the Internet Computer. 
+For our story integration we use CanDB, a flexible, performant, and horizontally scalable non-relational multi-canister database built for the Internet Computer. 
 
 All of this makes Jasmine a multi-canister dapp.
 - - -  
