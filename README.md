@@ -2,7 +2,7 @@
 
 ![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/0df3f056-a8cb-411b-b7d6-0fa8c9784298)
 
-  A decentralised NFT application hosted on the Internet Computer Blockchain (ICP)  
+  A decentralised NFT application platform hosted on the Internet Computer Blockchain (ICP)  that brings creator story, digital art and design collectibles together.
 
   > __TongJi University Metaverse Web3 Research Lab__  
   > __[arkMeta Crypto Network Limited](https://arkmeta.io/)__
