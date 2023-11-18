@@ -1,3 +1,5 @@
+//  Connect with us 
+//
 import React from "react";
 import {
   Heading,
@@ -65,7 +67,7 @@ const SocialCards = () => {
 export default SocialCards;
 
 const SingleInfoCard = ({ title, children, href }) => {
-  const bgColor = useColorModeValue("White", "#1d1d20");
+  const bgColor = useColorModeValue("White", "#3d3d40");
   return (
     <Link href={href} _hover={{ textDecoration: "none" }} isExternal>
       <motion.div whileHover={{ scale: 1.05 }}>

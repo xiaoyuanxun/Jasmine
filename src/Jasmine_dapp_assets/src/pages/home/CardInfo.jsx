@@ -1,3 +1,5 @@
+// CardInfo.jsx
+//
 import React from "react";
 import {
   Heading,
@@ -12,10 +14,10 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import icLogo from "../../../assets/internet-computer-icp-logo.png";
-import supernova from "../../../assets/supernova.jpeg";
-import dfinityLight from "../../../assets/dfinity-light.png";
-import dfinityDark from "../../../assets/dfinity-dark.png";
+import icLogo from "../../../assets/AIGC_drink.png";
+import supernova from "../../../assets/defaultTopAuthor.png"; // supernova.jpeg";
+import dfinityLight from "../../../assets/satoshi_light.png";
+import dfinityDark from "../../../assets/satoshi.jpg";
 
 const CardInfo = () => {
   const dfinityColor = useColorModeValue(dfinityLight, dfinityDark);
@@ -43,14 +45,14 @@ const CardInfo = () => {
           />
           <SingleInfoCard
             image={dfinityColor}
-            title={"Backed by Dfinity"}
+            title={"Backed by Dfinity ICP"}
             body={
               "Supported by The Dfinity Foundation, a not-for-profit organization who is a major contributor to the ICP blockchain."
             }
           />
           <SingleInfoCard
             image={supernova}
-            title={"1st place in Supernova"}
+            title={"Web3 NFT Minting in Supernova"}
             body={
               "Winners of the 1st place prize in the social-fi category of the global supernova hackathon."
             }

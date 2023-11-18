@@ -154,7 +154,7 @@ When you encounter compiling problem, use follow commands to check the network w
   ssh-add ~/.ssh/id_rsa
 ```
  
-#### Jasmine Dapp Running Screen
+#### Jasmine Dapp Screenshots
  
 ![img](https://github.com/xiaoyuanxun/Jasmine/blob/main/src/Jasmine_dapp_assets/assets/Jasmine@demo.png)
   
