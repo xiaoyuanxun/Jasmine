@@ -156,7 +156,7 @@ When you encounter compiling problem, use follow commands to check the network w
  
 #### Jasmine Dapp Running Screen
  
-<img src="https://github.com/xiaoyuanxun/Jasmine/assets/Jasmine@demo.png" width="80">
+![img](https://github.com/xiaoyuanxun/Jasmine/blob/main/src/Jasmine_dapp_assets/assets/Jasmine@demo.png)
  
 Have a good time while hacking Jasmine project! 
 <p>If you any question, keep in touch with us. Any suggestion will be welcom!<p>
