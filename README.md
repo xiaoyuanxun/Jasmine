@@ -156,8 +156,8 @@ When you encounter compiling problem, use follow commands to check the network w
 > Jasmine Dapp to be continue ......
   
 - - -
-> Have a good time while you hacking Jasmine project!   
-> If you any question, keep in touch with us. Any suggestion will be welcom!
+Have a good time while you hacking Jasmine project!   
+If you any question, keep in touch with us. Any suggestion will be welcom!
 
 ## __License__
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
