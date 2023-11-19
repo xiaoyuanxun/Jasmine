@@ -1,3 +1,6 @@
+<!--
+ Any new text Adding will be welcome! We invite you to join this Web3 application improvement.
+-->
 <h3 align="left">Repository for Jasmine</h3>
 
 ![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/0df3f056-a8cb-411b-b7d6-0fa8c9784298)
@@ -148,6 +151,9 @@ When you encounter compiling problem, use follow commands to check the network w
   ssh -T git@github.com
   ssh-add ~/.ssh/id_rsa
 ```
+<!--
+We hope all can compile and run dapp sucessful.
+-->
  
 #### Jasmine Dapp Screenshots
  
