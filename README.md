@@ -5,13 +5,13 @@
   A decentralised NFT application platform hosted on the Internet Computer Blockchain (ICP)  that brings creator story, digital art and design collectibles together.
 
   > __TongJi University Metaverse Web3 Research Lab__  
-  > __[arkMeta Crypto Network Limited](https://arkmeta.io/)__
+  > __arkMeta Crypto Network Limited [(HongKong Node)](https://arkmeta.io/)__
 
 - - -
 
-## __About Jasmine__
+## __About a Web3 Application: Jasmine__
 
-Dapp Demo address: [Jasmine.app](https://jasmine.app).  
+> Dapp Demo address: [Jasmine.app](https://jasmine.app).  
 https://jjuzy-piaaa-aaaan-qau4q-cai.icp0.io/
 
 Jasmine allows readers, writers and Web3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
@@ -23,7 +23,7 @@ A new cryptocurrency technology that allows developers to build applications on 
 2. ### __What are canisters?__
 Canisters are special smart contracts that run WebAssembly. Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. Our files of code are uploaded into canisters and powered by the ICP blockchain.
 
-3. ### __What is Motoko?__
+3. ### __What is Motoko language?__
 Motoko is a new programming language designed for the Internet Computer - it is a type-safe language for creating backend smart contracts on ICP and bears a resemblance to Rust and C++. To learn more about the language, check out the SDK.
 
 If you're using Visual Studio Code it is recommended to use the Motoko extension.
@@ -42,7 +42,7 @@ If you're using Visual Studio Code it is recommended to use the Motoko extension
 built on the DFINITY Internet Computer.
 * [Internet Identity](https://internetcomputer.org/docs/current/tokenomics/identity-auth/what-is-ic-identity/)  -- Blockchain DID base on ICP
 
-### __Other Tools__
+### __Other Tech Tools__
 
  * [React Redux](https://react-redux.js.org/)   -- official React UI bindings layer for Redux.
 * [Chakra UI](https://chakra-ui.com/)          -- a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
@@ -156,8 +156,8 @@ When you encounter compiling problem, use follow commands to check the network w
 > Jasmine Dapp to be continue ......
   
 - - -
-Have a good time while you hacking Jasmine project! 
-<p>If you any question, keep in touch with us. Any suggestion will be welcom!<p>
+> Have a good time while you hacking Jasmine project!   
+> If you any question, keep in touch with us. Any suggestion will be welcom!
 
 ## __License__
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
