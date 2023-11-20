@@ -2,12 +2,6 @@
  Any new text Adding will be welcome! We invite you to join this Web3 application improvement.
 -->
 
-<head> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
-</head> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-
 <h3 align="left">Repository for Jasmine</h3>
 
 ![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/0df3f056-a8cb-411b-b7d6-0fa8c9784298)
@@ -19,14 +13,14 @@
 
 - - -
 
-## __About a Web3 Application: Jasmine__
+## <i class="fa fa-book"> </i>  __About a Web3 Application: Jasmine__
 
 > Dapp Demo address: [Jasmine.app](https://jasmine.app).  
 https://jjuzy-piaaa-aaaan-qau4q-cai.icp0.io/
 
 Jasmine allows readers, writers and Web3 enthusiasts, to create and enjoy community created content, read or write stories and create or sell NFTs along with other features.
 - - -
-## __Basic Concepts__
+## <i class="fa fa-anchor"> </i> __Basic Concepts__
 1. ### __What is the Internet Computer (ICP)?__
 A new cryptocurrency technology that allows developers to build applications on top of it. It is faster and cheaper than other programmable blockchain alternatives.
 
@@ -59,22 +53,22 @@ built on the DFINITY Internet Computer.
 * [Vessel](https://github.com/dfinity/vessel)  -- the original package manager for Motoko programming language.
 
 - - -
-## __Design Approach__
+## <i class="fa fa-cogs"> </i>  __Design Approach__
 Jasmine is built on top of the ICP blockchain - meaning the frontend and backend are both hosted on the blockchain. 
 
 We use a variety of tools, web2 and web3 alike. The codebase has been opensourced to hopefully be used for educational purposes for any other developers building dapps on the ICP blockchain. 
 
 This project was kickstarted with the `dfx new` command. 
 
-  ### __Frontend__
+  ### <i class="fa fa-check-square"></i> __Frontend__
 
-> We try to take a modern approach to the frontend in terms of using modern React practices such as functional components and hooks aswell as implementing the most popular React state management library: Redux. The idea is to make as many readable dynamic components as possible taking a "less is more" approach. 
+> <i class="fa fa-paperclip"></i> We try to take a modern approach to the frontend in terms of using modern React practices such as functional components and hooks aswell as implementing the most popular React state management library: Redux. The idea is to make as many readable dynamic components as possible taking a "less is more" approach. 
 
 We are adament that the dapp works and looks nice across all device screens so we use Chakra UI for most of the UI design and CSS, This allows custom and fast development of the UI aswell as responsive components.
 
-### __Backend__
+### <i class="fa fa-check-square"></i> __Backend__
 
-> Our backend is a mix between in house smart contracts written in Motoko aswell as using frontend api's to call external smart contracts on the ICP blockchain. We call features and tools from other Motoko packages using Vessel - a Motoko package manager. 
+>  <i class="fa fa-database"></i> Our backend is a mix between in house smart contracts written in Motoko aswell as using frontend api's to call external smart contracts on the ICP blockchain. We call features and tools from other Motoko packages using Vessel - a Motoko package manager. 
 
 Some of our Motoko backend is calling the Anvil Protocols smart contracts - covering our whole NFT integration. 
 
@@ -95,7 +89,7 @@ All of this makes Jasmine a multi-canister dapp.
 
 - `UserGeek`  -- We use UserGeek for analytics which allows us to obtain stats on unique users who use our dapp, as well as things like how many users purchased NFTs. All information is anonymous.
 - - -
-## __How To Build and Run__
+## <i class="fa fa-spinner"></i> __How To Build and Run__
 
 First make sure you have the following packages installed:
 
@@ -136,7 +130,7 @@ This project follows the all-contributors specification.
  <p align="left"> Contributions of any kind is welcome! </p>
 
 - - -
-## __Troubleshooting__
+## <i class="fa fa-bug"></i>   __Troubleshooting__
 You may encounter trouble with Vessel package，try this test command
  ```bash
   vessel --version
@@ -172,7 +166,7 @@ We hope all can compile and run dapp sucessful.
 Have a good time while you hacking Jasmine project!   
 If you any question, keep in touch with us. Any suggestion will be welcom!  
 
-<i class="fa fa-weixin"></i> arksong80
+<i class="fa fa-wifi"></i> weixin: arksong80
 
 ## __License__
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
@@ -180,3 +174,9 @@ Jasmine is distributed under the terms of the Apache License (Version 2.0).
 See LICENSE for details.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<head> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
+</head> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
