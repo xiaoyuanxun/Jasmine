@@ -1,6 +1,13 @@
 <!--
  Any new text Adding will be welcome! We invite you to join this Web3 application improvement.
 -->
+
+<head> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
+</head> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
 <h3 align="left">Repository for Jasmine</h3>
 
 ![image](https://github.com/xiaoyuanxun/Jasmine/assets/53613219/0df3f056-a8cb-411b-b7d6-0fa8c9784298)
@@ -163,7 +170,9 @@ We hope all can compile and run dapp sucessful.
   
 - - -
 Have a good time while you hacking Jasmine project!   
-If you any question, keep in touch with us. Any suggestion will be welcom!
+If you any question, keep in touch with us. Any suggestion will be welcom!  
+
+<i class="fa fa-weixin"></i> arksong80
 
 ## __License__
 Jasmine is distributed under the terms of the Apache License (Version 2.0).
