@@ -15,6 +15,8 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 
+import RightImg from "src/Jasmine_dapp_assets/assets/kingdom01.jpg";
+
 
 export const CallToActionWithVideo = () => {
   return (
@@ -42,7 +44,7 @@ export const CallToActionWithVideo = () => {
                 bg: 'red.400',
                 zIndex: -1,
               }}>
-              Write once,
+              NFT Mint Once,
             </Text>
             <br />
             <Text as={'span'} color={'red.400'}>
@@ -63,7 +65,7 @@ export const CallToActionWithVideo = () => {
               colorScheme={'red'}
               bg={'red.400'}
               _hover={{ bg: 'red.500' }}>
-              Get started
+              Mint started
             </Button>
             <Button
               rounded={'full'}
@@ -118,6 +120,7 @@ export const CallToActionWithVideo = () => {
               src={
                 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
               }
+              // src/Jasmine_dapp_assets/assets/kingdom01.jpg
             />
           </Box>
         </Flex>
