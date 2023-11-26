@@ -1,5 +1,3 @@
-'use client'
-
 import {
   Box,
   Button,
@@ -20,14 +18,15 @@ import {
   FcManager,
 } from 'react-icons/fc'
 
-interface CardProps {
-  heading: string
-  description: string
-  icon: ReactElement
-  href: string
-}
+// interface CardProps {
+//   heading: string
+//   description: string
+//   icon: ReactElement
+//   href: string
+// }
 
-const Card = ({ heading, description, icon, href }: CardProps) => {
+// const Card = ({ heading, description, icon, href }: CardProps) => {
+const Card = ({ heading, description, icon, href }) => {
   return (
     <Box
       maxW={{ base: 'full', md: '275px' }}
