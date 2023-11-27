@@ -20,12 +20,13 @@ import RightImg from "../../../assets/kingdom01.jpg";
 
 export const CallToActionWithVideo = () => {
   return (
-    <Container maxW={'7xl'}>
+    <Container >
       <Stack
         align={'center'}
         spacing={{ base: 8, md: 10 }}
         py={{ base: 20, md: 28 }}
-        direction={{ base: 'column', md: 'row' }}>
+        direction={{ base: 'column', md: 'row' }}
+        >
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
           <Heading
             lineHeight={1.1}
@@ -97,8 +98,9 @@ export const CallToActionWithVideo = () => {
             height={'300px'}
             rounded={'2xl'}
             boxShadow={'2xl'}
-            width={'full'}
-            overflow={'hidden'}>
+            width={'100%'}
+            overflow={'hidden'}
+            >
             <IconButton
               aria-label={'Play Button'}
               variant={'ghost'}
@@ -119,8 +121,6 @@ export const CallToActionWithVideo = () => {
               h={'100%'}
               src={
                 RightImg
-                //?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80
-                // 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
               }
               // src/Jasmine_dapp_assets/assets/kingdom01.jpg
             />

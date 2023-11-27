@@ -17,6 +17,7 @@ import {
   FcDonate,
   FcManager,
 } from 'react-icons/fc'
+import React from 'react';
 
 // interface CardProps {
 //   heading: string
@@ -60,7 +61,7 @@ const Card = ({ heading, description, icon, href }) => {
   )
 }
 
-export default function gridListWith() {
+export function GridListWith() {
   return (
     <Box p={4}>
       <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>

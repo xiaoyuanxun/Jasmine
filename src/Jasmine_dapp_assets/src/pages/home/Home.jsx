@@ -22,7 +22,7 @@ import CardInfo from "./CardInfo";
 import SocialCards from "./SocialCards";
 import {CallToActionWithVideo, ErrorFallback} from "./Heros";
 import backgroundImage from '../../../assets/background.jpg';
-
+import { GridListWith } from "./ShortHead";
 
 const Home = () => {
   useEffect(() => {
@@ -74,9 +74,13 @@ const Home = () => {
         <TopStories  width='85%' margin="0 auto"/>
         <TopNfts  width='85%' margin="0 auto"/>
         <CardInfo  width='85%' margin="0 auto"/>
-        <CallToActionWithVideo width='85%' margin="0 auto" />
+
+        <CallToActionWithVideo />
         
+        <GridListWith />
+
         <SocialCards  width='85%' margin="0 auto"/>
+        
       </Box>
     </>
   );
